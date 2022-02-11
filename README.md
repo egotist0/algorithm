@@ -1,7 +1,6 @@
 # algorithm
 
-This is my own experience with some of the questions, mainly including
-Common data structures
+This is my own experience with some algorithms, mainly including common data structures and algorithms
 + Use of stl
 + graph algorithms
 + String algorithms
