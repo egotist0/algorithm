@@ -60,7 +60,7 @@ int main(){
     calH(b,str);
     int ans=0;
     //奇回文
-    for(int i=0li<str.length();i++){ //枚举对称中心
+    for(int i=0;i<str.length();i++){ //枚举对称中心
         //二分上界为分界点i的左右长度的较小值加1
         int maxlen=min(i,(int)str.length()-1-i)+1;
         int k=binarySearch(0,maxlen,str.length(),i,0);
