@@ -47,7 +47,7 @@ int kruskal(int n,int m){
     for(int i=0;i<m;i++){ //枚举所有边
         int fau=findFather(E[i].u);
         int fav=findFather(E[i].v);
-        if(fau1=fav){ //不在同一个连通集中
+        if(fau=fav){ //不在同一个连通集中
             father[fau]=fav; //合并连通集
             ans+=E[i].w;
             num++;
